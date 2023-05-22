@@ -8,7 +8,7 @@ This is a temporary script file.
 import pickle
 import streamlit as st
 
-heart_model = pickle.load(open('heart_disease.sav','rb'))
+heart_model = pickle.load(open('C:/Users/Lenovo/.spyder-py3/heart_disease.sav','rb'))
 
 st.title('Heart Disease Prediction using ML')
     
